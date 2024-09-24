@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lvTemplate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txtid"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:text="ID"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/txtItemname"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:text="Item Name"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txtpurprice"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:text="Purchase Price"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtretprice"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:text="Retail Price"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtidstock"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:text="Ideal Stocks"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtavstock"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:text="Available Stocks"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtvalue"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:text="Value"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+</LinearLayout>

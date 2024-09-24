@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Stationery System</string>
+    <string name="menu_Open">Open</string>
+    <string name="close_Menu">Close</string>
+</resources>
